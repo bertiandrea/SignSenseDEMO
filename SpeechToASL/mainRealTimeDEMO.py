@@ -42,7 +42,7 @@ def text_to_pose(text: str) -> Pose:
 
 def recognize_speech_from_microphone(stop_event, ONLINE: bool = True):
     text = ""
-    text_parsed = "secondaguerramondiale inizia con invasione potenza aggressiva violando accordi internazionali e scatenando conflitto terribile"
+    text_parsed = "secondaguerramondiale inizia conn invasione potenza aggressiva violando accordi internazionali e scatenando conflitto terribile"
     while True:
         if stop_event.is_set():
             break
