@@ -185,4 +185,4 @@ if __name__ == "__main__":
     frame_thread.join()
     display_thread.join()
 
-#  python3 ./SpeechToASL/mainRealTimeDEMO.py --fps 40 --frame_square_size 720 --h_screen_size 1280 --v_screen_size 720 --font_scale 3 --thickness 3
+#  python3 ./SpeechToASL/mainRealTimeDEMO.py --fps 35 --frame_square_size 720 --h_screen_size 1280 --v_screen_size 720 --font_scale 3 --thickness 3
